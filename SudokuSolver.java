@@ -1,5 +1,3 @@
-package recursion.backtracking;
-
 public class SudokuSolver {
     static boolean solver(int[][] board) {
         int row = -1;
@@ -86,13 +84,6 @@ public class SudokuSolver {
             }            
             System.out.println();            
         }
-        
-        // for (int[] row : board) {
-        //     for (int element : row) {
-        //         System.out.print(element + " ");
-        //     }
-        //     System.out.println();
-        // }
     }
     
     public static void main(String[] args) {
